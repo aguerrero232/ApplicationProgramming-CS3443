@@ -12,12 +12,13 @@
     <children>
         <Pane layoutY="-7.0" prefHeight="700.0" prefWidth="750.0">
             <children>
+            <ImageView fx:id="backgroundimg" fitHeight="707.0" fitWidth="744.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
                 <Button fx:id="logout" layoutX="611.0" layoutY="15.0" mnemonicParsing="false" onAction="#handle" prefHeight="25.0" prefWidth="75.0" text="Logout">
                     <font>
                         <Font name="System Bold" size="13.0" />
                     </font>
                 </Button>
-                <Label fx:id="capname" layoutX="210.0" layoutY="30.0" prefHeight="134.0" prefWidth="263.0" textFill="#5a08f2">
+                <Label fx:id="capname" layoutX="79.0" layoutY="28.0" prefHeight="134.0" prefWidth="263.0" textFill="#5a08f2">
                     <font>
                         <Font name="System Bold" size="14.0" />
                     </font>
@@ -30,43 +31,43 @@
                 <ImageView fx:id="img6" fitHeight="125.0" fitWidth="150.0" layoutX="185.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true" />
                 <ImageView fx:id="img7" fitHeight="125.0" fitWidth="150.0" layoutX="388.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true" />
                 <ImageView fx:id="img8" fitHeight="125.0" fitWidth="150.0" layoutX="574.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true" />
-                <Label fx:id="lbl1" layoutX="14.0" layoutY="270.0" prefHeight="98.0" prefWidth="150.0">
+                <Label fx:id="lbl1" layoutX="14.0" layoutY="270.0" prefHeight="98.0" prefWidth="150.0" textFill="#5a08f2">
                <font>
                   <Font size="9.0" />
                </font></Label>
-                <Label fx:id="lbl2" layoutX="185.0" layoutY="270.0" prefHeight="91.0" prefWidth="181.0">
+                <Label fx:id="lbl2" layoutX="185.0" layoutY="270.0" prefHeight="91.0" prefWidth="181.0" textFill="#5a08f2">
                <font>
                   <Font size="9.0" />
                </font></Label>
-                <Label fx:id="lbl3" layoutX="321.0" layoutY="270.0" prefHeight="91.0" prefWidth="231.0">
+                <Label fx:id="lbl3" layoutX="321.0" layoutY="270.0" prefHeight="91.0" prefWidth="231.0" textFill="#5a08f2">
                <font>
                   <Font size="10.0" />
                </font></Label>
-                <Label fx:id="lbl4" layoutX="581.0" layoutY="270.0" prefHeight="98.0" prefWidth="231.0">
+                <Label fx:id="lbl4" layoutX="581.0" layoutY="270.0" prefHeight="98.0" prefWidth="231.0" textFill="#5a08f2">
                <font>
                   <Font size="9.0" />
                </font></Label>
-                <Label fx:id="lbl5" layoutX="5.0" layoutY="497.0" prefHeight="98.0" prefWidth="175.0">
+                <Label fx:id="lbl5" layoutX="5.0" layoutY="497.0" prefHeight="98.0" prefWidth="175.0" textFill="#5a08f2">
                     <font>
                         <Font size="11.0" />
                     </font>
                 </Label>
-                <Label fx:id="lbl6" layoutX="164.0" layoutY="497.0" prefHeight="70.0" prefWidth="175.0">
+                <Label fx:id="lbl6" layoutX="164.0" layoutY="497.0" prefHeight="70.0" prefWidth="175.0" textFill="#5a08f2">
                     <font>
                         <Font size="11.0" />
                     </font>
                 </Label>
-                <Label fx:id="lbl7" layoutX="361.0" layoutY="497.0" prefHeight="91.0" prefWidth="181.0">
+                <Label fx:id="lbl7" layoutX="361.0" layoutY="497.0" prefHeight="91.0" prefWidth="181.0" textFill="#5a08f2">
                     <font>
                         <Font size="11.0" />
                     </font>
                 </Label>
-                <Label fx:id="lbl8" layoutX="563.0" layoutY="497.0" prefHeight="98.0" prefWidth="181.0">
+                <Label fx:id="lbl8" layoutX="563.0" layoutY="497.0" prefHeight="98.0" prefWidth="181.0" textFill="#5a08f2">
                     <font>
                         <Font size="11.0" />
                     </font>
                 </Label>
-                <Label fx:id="nocrew" layoutX="511.0" layoutY="56.0" prefHeight="17.0" prefWidth="181.0" />
+                <Label fx:id="nocrew" layoutX="511.0" layoutY="56.0" prefHeight="17.0" prefWidth="181.0" textFill="#fffbfb" />
             </children>
         </Pane>
     </children>

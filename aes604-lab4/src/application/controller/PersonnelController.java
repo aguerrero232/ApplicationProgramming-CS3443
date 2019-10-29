@@ -11,9 +11,13 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.stage.Screen;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -32,6 +36,8 @@ public class PersonnelController implements Initializable {
 
     @FXML
     private Label nocrew;
+
+	@FXML private ImageView backgroundimg;
 
     @FXML
 
@@ -117,9 +123,22 @@ public class PersonnelController implements Initializable {
 				}
 			}
 
-			if(tmpship.getCrew().size() == 0){
-				nocrew.setText("Ship has no Crew!");
-			}
+		if(tmpship.getCrew().size() == 0){
+			nocrew.setText("Ship has no Crew!");
+		}
+
+		Image img = null;
+		try {
+			img = new Image(new FileInputStream("data/background2.gif"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+
+
+		backgroundimg.setImage(img);
+		backgroundimg.setFitWidth(1100);
+		backgroundimg.setFitHeight(1150);
+		backgroundimg.setOpacity(.20);
 
 		capname.setText("Welcome, Captain " + (LoginController.capName.charAt(0)+"").toUpperCase()+ LoginController.capName.substring(1,LoginController.capName.length()).toLowerCase() + "\n"+ tmpship.getShipClass() + " " +  tmpship.getRegistry());
 	}

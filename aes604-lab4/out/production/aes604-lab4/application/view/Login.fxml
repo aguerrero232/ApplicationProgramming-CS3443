@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
@@ -45,6 +46,11 @@
             <Label fx:id="errorbox" layoutX="99.0" layoutY="371.0" prefHeight="17.0" prefWidth="254.0" />
             <ImageView fx:id="smallimg" fitHeight="223.0" fitWidth="200.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
             <PasswordField fx:id="pass" layoutX="274.0" layoutY="390.0" promptText="Password" />
+            <Label fx:id="errorlabel" layoutX="140.0" layoutY="266.0" prefHeight="63.0" prefWidth="366.0" textFill="#7eff2e">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
          </children>
       </Pane>
    </children>

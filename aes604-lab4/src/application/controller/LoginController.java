@@ -9,6 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
@@ -26,16 +27,14 @@ import java.util.ResourceBundle;
  */
 public class LoginController implements Initializable {
 	
-	@FXML
-    private PasswordField pass;
+	@FXML private PasswordField pass;
 
-    @FXML
-    private Button login;
+    @FXML private Button login;
     
     public static String capName = "";
 
-    @FXML
-    private TextField usrname;
+    @FXML private TextField usrname;
+    @FXML private Label errorlabel;
 
     @FXML ImageView smallimg;
 
@@ -59,6 +58,10 @@ public class LoginController implements Initializable {
 				Main.tmpStage.show();
 				Main.tmpStage.setResizable(false);
 			}
+			else{
+				errorlabel.setText("Error: Invalid Input!");
+			}
+
 		}catch(Exception e ) {
 			e.printStackTrace();
 		}
