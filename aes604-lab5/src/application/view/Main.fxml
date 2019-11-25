@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="800.0" prefWidth="800.0">
+         <children>
+            <ImageView fx:id="logoimg" fitHeight="325.0" fitWidth="361.0" layoutX="201.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="30.0" layoutY="28.0" prefHeight="103.0" prefWidth="411.0" text="Welcome to">
+               <font>
+                  <Font name="Atari Small" size="42.0" />
+               </font>
+            </Label>
+            <Button fx:id="bButton" layoutX="42.0" layoutY="521.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="159.0" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="bbuttonimg" fitHeight="53.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@buttonimages/bbuttonimg.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="dButton" layoutX="223.0" layoutY="521.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="159.0" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@buttonimages/dbuttonimg.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="gButton" layoutX="403.0" layoutY="521.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="159.0" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@buttonimages/gbuttonimg.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="trButton" layoutX="144.0" layoutY="610.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="159.0" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@buttonimages/trbuttonimg.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="tyButton" layoutX="313.0" layoutY="610.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="159.0" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@buttonimages/tybuttonimg.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="rButton" layoutX="583.0" layoutY="521.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="159.0" style="-fx-background-color: #ffffff;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@buttonimages/rbuttonimg.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="483.0" layoutY="610.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="159.0" style="-fx-background-color: #ffffff;" fx:id="xButton">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="53.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@buttonimages/xbuttonimg.gif" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Label layoutX="206.0" layoutY="473.0" text="Select a zone to continue:">
+               <font>
+                  <Font name="Atari Small" size="27.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
