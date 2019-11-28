@@ -2,7 +2,7 @@
 
 
   CS3443_Midterm_2_Question_Sec_1: Midterm coding exam w/ my answers   
-  inclass1: simple intro to classes in java
+  inclass1: simple intro to classes in java  
   inclass2:  
   inclass3:  
   lab1: simple intro to java   
